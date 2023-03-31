@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4f9d103-65e0-498a-8c24-5bd6d37bf7e2" name="Changes" comment="change files encoding">
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/example/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+    <list default="true" id="f4f9d103-65e0-498a-8c24-5bd6d37bf7e2" name="Changes" comment="add instances">
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/com/example/eurekaclient2/EurekaClient2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/com/example/eurekaclient2/controller/NewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/test/java/com/example/eurekaclient2/EurekaClient2ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/eurekaclient/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/eurekaclient/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,9 @@
     <projectState path="$PROJECT_DIR$/eureka-client">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-client-2">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
       <ProjectState />
     </projectState>
@@ -48,7 +55,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/eureka-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-gateway" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,8 +85,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "File.Encoding",
     "spring.configuration.checksum": "50d75e1f37bb10a45c706fa07801e297",
     "vue.rearranger.settings.migration": "true"
@@ -92,7 +99,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaClientApplication-inst3">
     <configuration name="eureka-client [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -115,6 +122,9 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
@@ -122,7 +132,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="EurekaClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-client-2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient2.EurekaClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient.EurekaClientApplication" />
       <method v="2">
@@ -136,8 +167,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.eureka-client [dependencies]" />
+      <item itemvalue="HTTP Request.generated-requests | #6" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.EurekaClient2Application" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst1" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst2" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst3" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #6" />
         <item itemvalue="Gradle.eureka-client [dependencies]" />
       </list>
     </recent_temporary>
@@ -151,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680193973619</updated>
       <workItem from="1680193974602" duration="1876000" />
-      <workItem from="1680255873719" duration="4141000" />
+      <workItem from="1680255873719" duration="9655000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1680194133100</created>
@@ -181,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680257461037</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add api-gateway">
+      <created>1680260254617</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680260254617</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add api-gateway">
+      <created>1680260325181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680260325181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +260,8 @@
     <MESSAGE value="add eureka-server" />
     <MESSAGE value="add eureka-client" />
     <MESSAGE value="change files encoding" />
-    <option name="LAST_COMMIT_MESSAGE" value="change files encoding" />
+    <MESSAGE value="add api-gateway" />
+    <MESSAGE value="add instances" />
+    <option name="LAST_COMMIT_MESSAGE" value="add instances" />
   </component>
 </project>
